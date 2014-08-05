@@ -12,12 +12,6 @@
     "node": "~0.6.10 || 0.8 || 0.9"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
-    "start": "brunch watch --server",
-    "build": "brunch build",
-    "build:production": "brunch build --production",
-    "update:ember": "node setup.js update:ember",
-    "update:skeleton": "node setup.js update:skeleton",
     "install": "./node_modules/bower/bin/bower install",
     "postinstall": "./node_modules/brunch/bin/brunch build",
     "start" : "node app.js"
