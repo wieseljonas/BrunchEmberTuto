@@ -19,7 +19,7 @@
     "build:production": "brunch build --production",
     "update:ember": "node setup.js update:ember",
     "update:skeleton": "node setup.js update:skeleton",
-    "postinstall": "/postinstall.sh",
+    "postinstall": "./postinstall.sh"
   },
   "dependencies": {
     "javascript-brunch": "~1.7.0",
