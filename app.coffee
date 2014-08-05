@@ -25,5 +25,5 @@ exports.startServer = (port, path, callback) ->
   app.listen p
  
 isHeroku = process.env.MONGOHQ_URL?
-if isHeroku
-  exports.startServer()
+if require.main is module
+    exports.startServer()

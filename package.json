@@ -1,43 +1,19 @@
 {
-  "name": "brunch-with-ember-reloaded",
-  "author": "Jonas Wiesel",
-  "license": "BSD",
-  "description": "A new and up-to-date Brunch skeleton for developing Ember applications",
-  "version": "1.2.0",
-  "homepage": "https://github.com/gcollazo/brunch-with-ember-reloaded",
+  "author": "Jonathon Kresner",
+  "name": "airpair.com",
+  "description": "site hosted at airpair.com",
+  "version": "0.0.1",
+  "homepage": "http://airpair.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gcollazo/brunch-with-ember-reloaded.git"
+    "url": ""
   },
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
   },
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
-    "start": "brunch watch --server",
-    "build": "brunch build",
-    "build:production": "brunch build --production",
-    "update:ember": "node setup.js update:ember",
-    "update:skeleton": "node setup.js update:skeleton",
     "postinstall": "brunch build -c config-release.coffee"
   },
-  "dependencies": {
-    "javascript-brunch": "~1.7.0",
-    "css-brunch": "~1.7.0",
-    "stylus-brunch": "~1.7.0",
-    "uglify-js-brunch": "~1.7.0",
-    "clean-css-brunch": "~1.7.0",
-    "auto-reload-brunch": "~1.7.0",
-    "ember-handlebars-brunch": "git://github.com/gcollazo/ember-handlebars-brunch.git#master",
-    "brunch": ">= 1.7.12",
-    "bower": ">= 1.2.0",
-    "ember-precompiler-brunch": ">= 1.5.0",
-    "less-brunch": "~1.7.1"
-  },
-  "devDependencies": {
-    "karma": "*",
-    "karma-qunit": "*",
-    "karma-phantomjs-launcher": "~0.1.2"
-  }
+  "dependencies": {},
 }
