@@ -10,7 +10,8 @@
     "url": "git://github.com/gcollazo/brunch-with-ember-reloaded.git"
   },
   "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
+    "node": "0.8.x",
+    "npm": "1.1.x"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
@@ -19,7 +20,7 @@
     "build:production": "brunch build --production",
     "update:ember": "node setup.js update:ember",
     "update:skeleton": "node setup.js update:skeleton",
-    "postinstall": "./postinstall.sh"
+    "postinstall": "brunch build -c config-release.coffee"
   },
   "dependencies": {
     "javascript-brunch": "~1.7.0",
