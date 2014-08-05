@@ -64,4 +64,10 @@ exports.config = {
       }
     }
   }
+  server: {
+    path: 'app.js',
+    port: 3333,
+    base: '/',
+    run: 'yes'
+  }
 };
