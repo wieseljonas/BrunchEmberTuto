@@ -31,8 +31,5 @@
     "bower" : "*"
   },
   "devDependencies": {
-    "karma": "*",
-    "karma-qunit": "*",
-    "karma-phantomjs-launcher": "~0.1.2"
   }
 }
