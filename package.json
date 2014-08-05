@@ -29,7 +29,7 @@
     "auto-reload-brunch": "~1.7.0",
     "ember-handlebars-brunch": "git://github.com/gcollazo/ember-handlebars-brunch.git#master",
     "statik": ">= 1.1.0", 
-    "brunch": "1.x",
+    "brunch": "1.x"
   },
   "devDependencies": {
     "karma": "*",
