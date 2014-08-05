@@ -1,6 +1,7 @@
 {
-  "author": "Giovanni Collazo",
   "name": "brunch-with-ember-reloaded",
+  "author": "Jonas Wiesel",
+  "license": "BSD",
   "description": "A new and up-to-date Brunch skeleton for developing Ember applications",
   "version": "1.2.0",
   "homepage": "https://github.com/gcollazo/brunch-with-ember-reloaded",
@@ -18,7 +19,7 @@
     "build:production": "brunch build --production",
     "update:ember": "node setup.js update:ember",
     "update:skeleton": "node setup.js update:skeleton",
-    "postinstall": "brunch build --production"
+    "postinstall": "./postinstall.sh",
   },
   "dependencies": {
     "javascript-brunch": "~1.7.0",
@@ -28,8 +29,10 @@
     "clean-css-brunch": "~1.7.0",
     "auto-reload-brunch": "~1.7.0",
     "ember-handlebars-brunch": "git://github.com/gcollazo/ember-handlebars-brunch.git#master",
-    "statik": ">= 1.1.0", 
-    "brunch": "1.x"
+    "brunch": ">= 1.7.12",
+    "bower": ">= 1.2.0",
+    "ember-precompiler-brunch": ">= 1.5.0",
+    "less-brunch": "~1.7.1"
   },
   "devDependencies": {
     "karma": "*",
