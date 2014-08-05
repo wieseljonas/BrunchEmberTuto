@@ -29,8 +29,8 @@
     "clean-css-brunch": "~1.7.0",
     "auto-reload-brunch": "~1.7.0",
     "ember-handlebars-brunch": "git://github.com/gcollazo/ember-handlebars-brunch.git#master",
-    "express": "~3.4.8"
-    "coffee-script": "~1.7.1"
+    "express": "~3.4.8",
+    "coffee-script": "~1.7.1",
     "brunch": "1.x"
   },
   "devDependencies": {
